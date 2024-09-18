@@ -1,0 +1,154 @@
+body{
+  margin: 0;
+  background-color: #ffffff;
+  font-family: sans-serif;
+}
+
+img{ 
+  max-width: 100%;
+}
+
+nav{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*Menú adaptable*/
+.toggle-menu{
+  width: 40px;
+  position: absolute;
+  top: 0.5rem;
+  right: 1.5rem;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.main-menu{
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main-menu--show{
+  transform: translateY(0);
+}
+
+.main-menu__item{
+  padding: 20px;
+  display: flex;
+}
+
+.main-menu__link{
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.Inscribirse{
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 5px;
+  background-color: #4ec3e0;
+}
+/*Fin menú*/
+/* Estilos para el carrusel */
+.carrusel {
+  display: flex;
+  position: relative;
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+  border: 2px solid #ddd;
+  margin-top: 1%;
+  border-radius: 20px;
+}
+
+.slides {
+  display: flex;
+  width: 100%; 
+  transition: transform 0.5s;
+}
+
+.slides img {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  transform: translateY(-50%);
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/*Fin carrusel*/
+
+.sede{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  font-size: 120;
+}
+
+.sede_1{
+  padding-left: 10px;
+}
+
+.img4{
+  display: flex;
+  overflow: hidden;
+  margin: auto;
+  justify-content: center;
+  width: 95%;
+  border: 2px solid #ddd;
+  border-radius: 20px;
+  position: relative;
+}
+
+.Buscar{
+  margin-left: 45%;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Buscar:hover{
+  background-color: #ffffff;
+  color: black;
+}
+
+.png{
+  display: flex;
+  padding-left: 45%;
+  margin-top: 5%;
+}

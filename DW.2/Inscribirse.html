@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="img/isologoSUSANOO.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>SusanooFit</title>
+</head>
+<body>
+    <nav class="main-nav">
+        <div id="toggle-menu" class="toggle-menu">
+            <img src="imgs/8979038.png" alt="hamburgesa">
+        </div>
+        <ul id="main-menu" class="main-menu">
+            <li class="main-menu__item"><a href="Inicio.html" class="main-menu__link">Inicio</a></li>
+            <li class="main-menu__item"><a href="Sucursal.html" class="main-menu__link">Sucursales</a></li>
+            <li class="main-menu__item"><a href="Horario.html" class="main-menu__link">Horarios</a></li>
+            <li class="main-menu__item"><a href="Interes.html" class="main-menu__link">Tú interes</a></li>
+            <li class="main-menu__item"><a href="#" class="Inscribirse">Inscribete YA!</a></li>
+        </ul>
+    </nav>
+    <body>
+
+        <form action="validar.php" method="post">
+            <h1>Sistema de login</h1>
+            <p>correo<input type="email" placeholder="ingrese su email" name="email"></p>
+            <p>Contraseña<input type="password" placeholder="ingrese su contraseña" name="contraseña"></p>
+            <input type="submit" value="Ingresar">
+            </form>
+
+        <form method="POST" action="registro.php">
+            <label>Registrarse</label><br>
+            <label>Nombre <input placeholder="Ingrese el nombre" type="text" name="nombre"></label><br>
+            <label>Apellido <input placeholder="Ingrese el apellido" type="text" name="apellido"></label><br>
+            <label>Email <input placeholder="Ingrese el correo electronico" type="email" name="email"></label><br>
+            <label>Contraseña <input placeholder="Ingrese contraseña" type="password" name="contraseña"></label><br>
+            <label>Peso <input placeholder="Ingrese el peso en kg" type="number" name="peso"></label><br>
+            <label>Altura <input placeholder="Ingrese altura en metros" type="number" name="altura"></label><br>
+            <label>Edad <input placeholder="Ingrese la edad" type="number" name="edad"></label><br>
+            <label>Telefono <input placeholder="Ingrese telefono" type="number" name="telefono"></label><br>
+            <label>Dirección<input placeholder="Ingrese direccion" type="text" name="direccion"></label><br>
+            <input class="boton" type="submit" value="Registrar" name="registro">
+        </form>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>

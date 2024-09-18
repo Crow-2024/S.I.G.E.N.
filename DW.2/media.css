@@ -1,0 +1,37 @@
+@media screen and (min-width: 768px){
+    .main-menu{
+        flex-direction: row;
+        transform: translateY(0);
+    }
+
+    .toggle-menu{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+
+    nav{
+        box-shadow:none;
+    }
+    .main-menu{
+        background-color: #4ec3e0;
+    }
+    .Inscribirse{
+        background-color: white;
+    }
+
+    .sede{
+        font-size: 50%;
+    }
+    
+    .png{
+        width: 200px;
+        padding-left: 0;
+    }
+
+    .Buscar{
+        font-size: 10px;
+        padding: 5px;
+        margin-left: 45%;
+    }
+}
